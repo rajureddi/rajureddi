@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm RAJUReDDY</h1>
 <h3 align="center">A passionate developer</h3>
 <div align="center">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=raju2525&label=Profile%20views&color=0e75b6&style=flat" alt="raju2525" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rajureddi&label=Profile%20views&color=0e75b6&style=flat" alt="rajureddi" /> </p>
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
