@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+<title id="title">RAJU // ON-DEVICE INTELLIGENCE LAB</title>
+<desc id="desc">Raju Bandam's experimental AI lab. A cyan and violet inference core connects perception, reasoning and action. Local compute, human impact.</desc>
+<defs>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#182238" stroke-width=".6"/></pattern>
+ <radialGradient id="halo"><stop stop-color="#173663" stop-opacity=".7"/><stop offset="1" stop-color="#080C16" stop-opacity="0"/></radialGradient>
+ <linearGradient id="edge"><stop stop-color="#37E8ED"/><stop offset="1" stop-color="#9975FF"/></linearGradient>
+ <style>
+ .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+ .orbit{transform-origin:760px 220px;animation:orbit 32s linear infinite}
+ .pulse{animation:pulse 5s ease-in-out infinite}
+ @keyframes orbit{to{transform:rotate(360deg)}}
+ @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+ @media(prefers-reduced-motion:reduce){.orbit,.pulse{animation:none}}
+ </style>
+</defs>
+<rect x="1" y="1" width="958" height="498" rx="12" fill="#080C16" stroke="#233149"/>
+<rect x="2" y="2" width="956" height="496" rx="12" fill="url(#grid)"/>
+<ellipse cx="753" cy="220" rx="210" ry="210" fill="url(#halo)"/>
+<path d="M28 57V28H57M903 28H932V57M28 443V472H57M903 472H932V443" fill="none" stroke="url(#edge)" stroke-width="2"/>
+<g class="mono" font-size="13" fill="#91A3BD">
+<text x="50" y="54">R / B     RESEARCH INTERFACE</text>
+<text x="724" y="54">LOCAL RUNTIME</text><circle cx="900" cy="49" r="4" fill="#37E8ED" class="pulse"/>
+</g>
+<path d="M50 78H910" stroke="#233149"/>
+<text x="48" y="195" fill="#EFF6FF" font-family="Arial,Helvetica,sans-serif" font-size="106" font-weight="700" letter-spacing="-5">RAJU<tspan fill="#37E8ED" font-size="62" letter-spacing="-4"> //</tspan></text>
+<g class="mono">
+<text x="53" y="242" fill="#37E8ED" font-size="22" letter-spacing="2">ON-DEVICE</text>
+<text x="53" y="276" fill="#EFF6FF" font-size="22" letter-spacing="2">INTELLIGENCE LAB</text>
+<text x="53" y="319" fill="#91A3BD" font-size="15">LOCAL COMPUTE. HUMAN IMPACT.</text>
+</g>
+<g fill="none">
+<circle cx="760" cy="220" r="126" stroke="#233149"/>
+<circle cx="760" cy="220" r="106" stroke="#26435A" stroke-dasharray="2 9"/>
+<g class="orbit" stroke="url(#edge)" stroke-width="2"><circle cx="760" cy="220" r="126" stroke-dasharray="65 133"/><circle cx="886" cy="220" r="5" fill="#37E8ED" stroke="none"/></g>
+<path d="M760 129L839 174V266L760 311L681 266V174Z" stroke="#9975FF" stroke-opacity=".65"/>
+<path d="M760 158L814 189V251L760 282L706 251V189Z" stroke="#37E8ED"/>
+<path d="M760 158V191M814 189L785 205M814 251L785 235M760 282V249M706 251L735 235M706 189L735 205" stroke="#37E8ED" stroke-opacity=".5"/>
+<rect x="731" y="191" width="58" height="58" rx="9" fill="#10283C" stroke="url(#edge)"/>
+</g>
+<text x="760" y="226" text-anchor="middle" class="mono" fill="#EFF6FF" font-size="18">AI</text>
+<g class="mono" font-size="11" fill="#91A3BD"><text x="760" y="365" text-anchor="middle">PERCEIVE / REASON / ACT</text></g>
+<path d="M50 394H910" stroke="#233149"/>
+<g class="mono" font-size="14"><text x="53" y="429" fill="#37E8ED">01 / SEE</text><text x="362" y="429" fill="#7DB0FF">02 / REASON</text><text x="699" y="429" fill="#B49AFF">03 / ACT</text></g>
+<g class="mono" font-size="11" fill="#91A3BD"><text x="53" y="452">CAMERAS + PERCEPTION</text><text x="362" y="452">MODELS + LOCAL INFERENCE</text><text x="699" y="452">ANDROID + REAL WORLD</text></g>
+</svg>
