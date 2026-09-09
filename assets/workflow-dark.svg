@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+<title id="title">From input to useful on-device software</title>
+<desc id="desc">Text, camera frames and documents feed local model inference, which powers chat, voice guidance and application features. A diagram of my engineering interests.</desc>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace"><path d="M1 1H899M1 179H899" stroke="#39444D"/>
+<text x="12" y="25" font-size="11" letter-spacing="1.3" fill="#8B98A5">FROM INPUT TO APPLICATION</text>
+<rect x="326" y="53" width="268" height="86" rx="5" fill="#172019" stroke="#39444D"/>
+<path d="M273 95H316M310 91L316 95L310 99M604 95H637M631 91L637 95L631 99" fill="none" stroke="#91AE98" stroke-width="1.5"/>
+<text x="14" y="75" font-size="11" letter-spacing="1" fill="#8B98A5">01 / INPUT</text>
+<text x="14" y="101" font-size="18" fill="#D9E1E8">Text · camera</text>
+<text x="14" y="125" font-size="18" fill="#D9E1E8">Documents</text>
+<text x="344" y="75" font-size="11" letter-spacing="1" fill="#8B98A5">02 / LOCAL INFERENCE</text>
+<text x="344" y="101" font-size="18" fill="#D9E1E8">Models +</text>
+<text x="344" y="125" font-size="18" fill="#D9E1E8">mobile runtime</text>
+<text x="658" y="75" font-size="11" letter-spacing="1" fill="#8B98A5">03 / INTERACTION</text>
+<text x="658" y="101" font-size="18" fill="#D9E1E8">Chat · voice</text>
+<text x="658" y="125" font-size="18" fill="#D9E1E8">Application UI</text>
+</g></svg>
